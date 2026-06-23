@@ -94,19 +94,5 @@ void resumen(const RegistroTemperaturas& reg) {
     cout << "Minima   : " << reg.minima() << endl;
 }
 
-int main() {
-    int n;
-    cin >> n;
-
-    RegistroTemperaturas registro(n);
-
-    for (int i = 0; i < n; i++) {
-        double temp;
-        cin >> temp;
-        registro.agregar(temp);
-    }
-
-    resumen(registro);
-
     return 0;
 }
