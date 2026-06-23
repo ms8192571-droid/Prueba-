@@ -63,13 +63,12 @@ Enfócate en los usos relacionados con punteros y referencias
 — no en los operadores aritméticos.
 
   Explica los usos de * relacionados con punteros,
-  con un ejemplo de una línea para cada uno:
-sirve para poder ver la direccion de la variable 
- puntero: ptr* 
+  con un ejemplo de una línea para cada uno: sirve para acceder al valor almacenado. 
+  int* ptr; 
   
   Explica los usos de & relacionados con punteros y referencias,
-  con un ejemplo de una línea para cada uno:
-sirve para poder acceder a esa informacion
+  con un ejemplo de una línea para cada uno: sirve para poder ver la direccion de la variable 
+  int& ref = x;
 ────────────────────────────────────────────────────────────────
 A4. (6 pts) Completa la tabla con el valor de cada expresión
 después de ejecutar este bloque. Trabaja A MANO — no uses IDE.
