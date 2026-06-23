@@ -238,7 +238,6 @@ ejecutarlo, responde:
 
   a) (3 pts) ¿Qué imprime a->hablar()? ¿Por qué imprime
      ESO y no la versión de Perro?
-     esta mal vopid hablar() porque appiunta al primer objeto que se creo 
 Rex hace un sonido.
 Porque hablar() no es virtual, entonces se ejecuta la versión de Animal según el tipo del puntero (Animal*).
   b) (3 pts) ¿Qué cambio de UNA PALABRA en la clase Animal
@@ -248,7 +247,7 @@ virtual
 virtual void hablar()
 
   c) (2 pts) ¿Hay algún problema con el delete a? ¿Por qué?
-Sí, hay un problema. Si la clase se usa con herencia, el destructor de Animal debería ser:
+Sí, hay un problema. Si la clase se usa con herencia, el destructor de Animal debería ser: virtual ~Animal()
 ────────────────────────────────────────────────────────────────
 B3. (7 pts) Escribe qué imprime cada fragmento SIN usar IDE.
 Si el fragmento tiene comportamiento indefinido, escríbelo
